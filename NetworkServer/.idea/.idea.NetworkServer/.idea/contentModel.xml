@@ -3,11 +3,14 @@
   <component name="ContentModelStore">
     <e p="C:\Users\jesseslgj\.Rider2018.2\config\extensions" t="IncludeRecursive" />
     <e p="C:\Users\jesseslgj\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\jesseslgj\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_NetworkServer.2062491370.00" t="ExcludeRecursive" />
-    <e p="D:\VE Unity Projecten\NetworkServer" t="IncludeRecursive">
+    <e p="C:\Users\jesseslgj\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_NetworkServer.-1628323141.00" t="ExcludeRecursive" />
+    <e p="D:\VE Unity Projecten\Networking MongoDatabase\Networking\NetworkServer" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="Database" t="Include">
+            <e p="MongoDB.cs" t="Include" />
+          </e>
           <e p="Server.cs" t="Include" />
           <e p="Shared" t="Include">
             <e p="Net_CreateAccount.cs" t="Include" />

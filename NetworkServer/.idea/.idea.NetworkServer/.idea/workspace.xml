@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85db22c4-ca71-4e2e-9b60-82b727add355" name="Default Changelist" comment="" />
+    <list default="true" id="85db22c4-ca71-4e2e-9b60-82b727add355" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../NetworkManager/Assets/Scripts/Shared" beforeDir="false" afterPath="$PROJECT_DIR$/../NetworkManager/Assets/Scripts/Shared" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NetworkServer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NetworkServer/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NetworkServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NetworkServer/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,14 +46,32 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1247653169">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="416" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="416" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Server.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="118" column="61" lean-forward="true" selection-start-line="118" selection-start-column="61" selection-end-line="118" selection-end-column="61" />
+            <state relative-caret-position="2394">
+              <caret line="118" column="61" selection-start-line="118" selection-start-column="61" selection-end-line="118" selection-end-column="61" />
               <folding>
                 <marker date="1556805345602" expanded="false" signature="6:133" ph="..." />
                 <marker date="1556805345602" expanded="true" signature="170:5264" ph="{...}" />
@@ -66,6 +88,21 @@
                 <marker date="1556805345602" expanded="true" signature="4704:5262" ph="{...}" />
                 <marker date="1556805345602" expanded="true" signature="4986:5110" ph="{...}" />
                 <marker date="1556805345602" expanded="true" signature="5123:5250" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Database/MongoDB.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <marker date="1556807328571" expanded="true" signature="6:100" ph="..." />
+                <marker date="1556807328571" expanded="true" signature="120:786" ph="{...}" />
+                <marker date="1556807328571" expanded="true" signature="351:647" ph="{...}" />
+                <marker date="1556807328571" expanded="true" signature="679:784" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -92,9 +129,13 @@
       <find>1</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Server.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shared/Net_OnLoginRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Server.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Database/MongoDB.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -103,6 +144,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Client.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shared/Net_OnLoginRequest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Server.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Database/MongoDatabase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Database/MongoDB.cs" />
       </list>
     </option>
   </component>
@@ -113,11 +156,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="54" />
-    <option name="y" value="-8" />
+    <option name="x" value="1144" />
+    <option name="y" value="-1220" />
     <option name="width" value="1874" />
     <option name="height" value="1096" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -182,11 +226,12 @@
       <workItem from="1556546450225" duration="2955000" />
       <workItem from="1556801120652" duration="1455000" />
       <workItem from="1556804343239" duration="1536000" />
+      <workItem from="1556806786364" duration="562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26524000" />
+    <option name="totallyTimeSpent" value="27086000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -198,9 +243,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="1044" y="-1208" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15600882" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15245202" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -244,25 +290,12 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../NetworkManager/Assets/Scripts/Client.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../NetworkManager/Assets/Scripts/Client.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Client.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shared/Net_OnLoginRequest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <marker date="1556801944879" expanded="true" signature="65:429" ph="{...}" />
-            <marker date="1556801944879" expanded="true" signature="99:168" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Server.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="118" column="61" lean-forward="true" selection-start-line="118" selection-start-column="61" selection-end-line="118" selection-end-column="61" />
+        <state relative-caret-position="2394">
+          <caret line="118" column="61" selection-start-line="118" selection-start-column="61" selection-end-line="118" selection-end-column="61" />
           <folding>
             <marker date="1556805345602" expanded="false" signature="6:133" ph="..." />
             <marker date="1556805345602" expanded="true" signature="170:5264" ph="{...}" />
@@ -279,6 +312,30 @@
             <marker date="1556805345602" expanded="true" signature="4704:5262" ph="{...}" />
             <marker date="1556805345602" expanded="true" signature="4986:5110" ph="{...}" />
             <marker date="1556805345602" expanded="true" signature="5123:5250" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shared/Net_OnLoginRequest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <marker date="1556801944879" expanded="true" signature="65:429" ph="{...}" />
+            <marker date="1556801944879" expanded="true" signature="99:168" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Database/MongoDB.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <marker date="1556807328571" expanded="true" signature="6:100" ph="..." />
+            <marker date="1556807328571" expanded="true" signature="120:786" ph="{...}" />
+            <marker date="1556807328571" expanded="true" signature="351:647" ph="{...}" />
+            <marker date="1556807328571" expanded="true" signature="679:784" ph="{...}" />
           </folding>
         </state>
       </provider>

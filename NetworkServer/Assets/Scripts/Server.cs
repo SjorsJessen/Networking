@@ -17,6 +17,8 @@ public class Server : MonoBehaviour
     private int webHostID;
 
     private bool isStarted;
+
+    private Mongo _mongoDatabase;
     
     private void Start()
     {
@@ -26,6 +28,9 @@ public class Server : MonoBehaviour
 
     public void Init()
     {
+        _mongoDatabase = new Mongo();
+        _mongoDatabase.Init();
+        
         NetworkTransport.Init();
         ConnectionConfig connectionConfig = new ConnectionConfig();
         connectionConfig.AddChannel(QosType.Reliable);
